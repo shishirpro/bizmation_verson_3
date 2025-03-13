@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@font-face{
+    font-family: glory;
+    src: url(./img/Gilroy-Bold.ttf);
+}
+
+@font-face{
+    font-family: gloryrigular;
+    src: url(./img/Gilroy-Regular.ttf);
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+ 
+ 
+ 
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+
+    font-weight: 400;
+   
+}  
+
+.glory{
+    font-family: glory;
+    font-weight: 400;
+
+}
+
+.gloryrigular{
+    font-family: gloryrigular;
+
+}
+
+.drop_shadow{
+    box-shadow: 0px 4px 14px 0px #0000000A;
+
+
+}
+
+.word_space{
+    word-spacing: -6px;
+    letter-spacing: -3px;
+}
+
+.drop_shadow_2{
+    box-shadow: 0px 12px 32px 0px #0C2C7230;
+
+}
+
+.drop_shadow_3{
+    box-shadow: 0px -56px 84px 0px #655C0E12;
+}
+
+.drop_shadow_4{
+    box-shadow: 0px 4px 24px 0px #27FEFA33;
+
+}
+
+.drop_shadow_5{
+    box-shadow: 0px 4px 44px 0px #0553650F;
+
+}
+.border_linear{
+    border: 1px solid;
+    border-image-source: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.25) 100%);
+
+}
+
+.img_bg_1{
+    background-image: url('./img/bg_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_bg_2{
+    background-image: url('./img/bg_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
