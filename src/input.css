@@ -80,6 +80,52 @@
     background-image: url('./img/bg_1.png');
     background-repeat: no-repeat;
     background-size: cover;
+}
 
-    
+.bgimage_1{
+    background-image: url('./img/bgimage_1.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgimage_2{
+    background-image: url('./img/bgimage_2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage_3{
+    background-image: url('./img/bgimage_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage_4{
+    background-image: url('./img/bgimage_4.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgimage_5{
+    background-image: url('./img/bgimage_5.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgimage_6{
+    background-image: url('./img/bgimage_6.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgimage_7{
+    background-image: url('./img/bgimage_7.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.bgimage_8{
+    background-image: url('./img/bgimage_8.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
