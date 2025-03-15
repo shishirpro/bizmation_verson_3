@@ -1,905 +1,904 @@
 <!doctype html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+ <meta charset="UTF-8">
+ <meta name="viewport"content="width=device-width, initial-scale=1.0">
+ <link href="./output.css"rel="stylesheet">
+ <link rel="preconnect"href="https://fonts.googleapis.com">
+ <link rel="preconnect"href="https://fonts.gstatic.com"crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"rel="stylesheet">
+ <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+ <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
-  <header class=" drop_shadow">
-    <div class=" max-w-[1200px] mx-auto p-2 px-5 xl:px-0 ">
-      <div class="bg-[#FFFFFF] ">
-          <div class=" gloryrigular grid grid-cols-3 items-center lg:grid-cols-7 gap-3">
-            <div class="col-span-2">
-              <div class="p-1 cursor-pointer">
-                <img src="./img/logo.png" alt="" />
-              </div>
-            </div>
-            <div class=" col-span-1 lg:col-span-3 hidden lg:inline ">
-              <div class="lg:flex justify-between items-center  ">
-                <a
-                  href="#"
-                  class="text-[20px] py-5  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all  ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                  >Home</a
-                >
-                <a
-                  href="#"
-                  class="text-[20px] py-5  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                  >Features</a
-                >
-                <a
-                  href="#"
-                  class="text-[20px] py-5  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                  >Pricing</a
-                >
-                <a
-                  href="#"
-                  class="text-[20px]  py-5  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all  ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                  >Blog</a
-                >
-                <a
-                  href="#"
-                  class="text-[20px]  py-5  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                  >Contact Us</a
-                >
-              </div>
-            </div>
-            <div class="lg:col-span-2 text-center float-right hidden lg:inline ">
-              <a href="" class="inline-block float-right">
-                <button class="  text-[20px] text-[#1BBABC] px-10 py-2 my-4 rounded-4xl border border-[#1BBABC] hover:bg-[#1BBABC] hover:text-white transition-all duration-300    ">
-                  Signup 
-                </button>
-              </a>
-            </div>
-            <div class="lg:hidden col-span-1">
-              <button id="menu-toggle" class="text-black focus:outline-none float-right">
-                  <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-                  </svg>
-              </button>
-           </div>
-           <div id="mobile-menu" class=" lg:hidden hidden col-span-3"> 
-            <div class="flex flex-col justify-between items-center  ">
-              <a
-                href="#"
-                class="text-[20px] py-1  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all  ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                >Home</a
-              >
-              <a
-                href="#"
-                class="text-[20px] py-1  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                >Features</a
-              >
-              <a
-                href="#"
-                class="text-[20px] py-1  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                >Pricing</a
-              >
-              <a
-                href="#"
-                class="text-[20px]  py-1  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all  ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                >Blog</a
-              >
-              <a
-                href="#"
-                class="text-[20px]  py-1  border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
-                >Contact Us</a
-              >
-              <a href="#" class="inline-block float-right">
-                <button class="  text-[20px] text-[#1BBABC] px-10 py-2 my-4 rounded-4xl border border-[#1BBABC] hover:bg-[#1BBABC] hover:text-white transition-all duration-300 cursor-pointer ">
-                  Signup 
-                </button>
-              </a>
-            </div>
-           </div>
-           
-          </div>
+ <header class="drop_shadow">
+  <div class="max-w-[1200px] mx-auto p-2 px-5 xl:px-0 ">
+   <div class="bg-[#FFFFFF] ">
+     <div class="gloryrigular grid grid-cols-3 items-center lg:grid-cols-7 gap-3">
+      <div class="col-span-2">
+       <div class="p-1 cursor-pointer">
+        <img src="./img/logo.png"alt=""/>
+       </div>
       </div>
-    </div>
-  </header>
-
-  <div class=" bgimage_1">
-     
-    <div class="max-w-[1200px] mx-auto p-2 py-5  ">
-      <div class="md:py-5 text-center ">
-        <h1 class=" archivo-black-regular text-xl md:text-5xl lg:text-[72px] leading-[120%] text-[#5B5B5B] text-center  md:pt-4"><span class="text-[#ED6911]">Transform</span> Your Business with <span class="text-[#02A387]">Automation</span></h1>
-        <div class="inline-block mt-[-10px]">
-          <img class=" w-[120px] md:w-[304px] lg:w-full ml-14 -mt-3 md:ml-34 lg:ml-0 md:mt-[-20px] " src="./img/vector_1.png" alt="">
-          <img class=" w-[120px] md:w-[304px] lg:w-full  ml-14 md:ml-34 lg:ml-6 -mt-4 md:mt-[-30px] lg:mt-[-22px]" src="./img/vector_2.png" alt="">
-        </div>
-        <p class="max-w-[876px] mx-auto inter md:px-4 md:py-5 leading-[120%] lg:leading-[150%] tracking-normal text-[16px] lg:text-lg text-[#000000CC] text-center">Take your business to the next level with cutting-edge automation solutions. Streamline processes, save time, and boost efficiency, all while focusing on what truly matters—growing your business</p>
-      </div>
-      <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-        <a class=" md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Start Free Trial 
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-        <a class=" md:w-auto inline-block px-10 md:px-18 py-5  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Learn More  
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-      </div>
-      <div class=" text-center pt-5 lg:pt-16">
-        <img class=" inline-block" src="./img/macBook.png" alt="">
-      </div>
-    </div>
-  </div>
-
-  <div class=" bg-white ">
-    <div class=" max-w-[1200px] mx-auto p-2 py-10">
-      <div class=" grid grid-cols-1 md:grid-cols-2 gap-0 lg:gap-8 items-center">
-        <div>
-          <img src="./img/growth.png" alt="">
-        </div>
-        <div>
-          <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4">Drive Growth with Data-Driven Insights</h1>
-          <img class=" w-[50%] md:w-[60%] lg:w-auto" src="./img/line_2.png" alt="">
-          <p class=" inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 text-[#3B3B3BB2] lg:pt-10">Understand your business metrics better and make smarter decisions with BizMation’s advanced analytics and tracking tools.</p>
-        </div>
-        <div class=" md:pl-8 pt-5 md:pt-0">
-          <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4 mr-10 md:ml-6">Streamline Your Workflow, Effortlessly</h1>
-          <img class=" w-[50%]  md:w-[60%] lg:w-auto" src="./img/line_2.png" alt="">
-          <p class=" inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 md:mx-6 text-[#3B3B3BB2] lg:pt-10">Experience seamless automation and simplify complex processes, allowing you to focus on growing your business.</p>
-        </div>
-        <div>
-          <img src="./img/workflow.png" alt="">
-        </div>
-      </div>
-      <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-        <a class=" md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Start Free Trial 
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-        <a class=" md:w-auto inline-block px-10 md:px-18 py-5  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Learn More  
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-      </div>
-    
-    </div>
-  </div>
-  
-  <div class=" bgimage_2 ">  
-    <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
-        <h1
-          class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-[#384252]  text-center "
+      <div class="col-span-1 lg:col-span-3 hidden lg:inline ">
+       <div class="lg:flex justify-between items-center ">
+        <a
+         href="#"
+         class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+         >Home</a
         >
-          Why Choose BizMation
-        </h1>
-        <div class=" text-center">
-          <img class=" w-[40%] md:w-[25%] lg:w-auto inline-block ml-44 md:ml-64 lg:ml-80" src="./img/line_3.png" alt="">
-        </div>   
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 md:py-5 lg:py-16 lg:pb-10 inter"
+        <a
+         href="#"
+         class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+         >Features</a
         >
-          <div class="col-span-1 flex justify-center">
-            <div class=" ">
-              <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
-               <img class="w-full h-full" src="./img/ennance.png" alt="">
-               <div class=" w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
-              </div>
-              <h1
-                class="text-lg md:text-xl lg:text-[32px] text-[#384252]  px-5 pt-2"
-              >
-                Enhance Operational Efficiency
-              </h1>
-              <p
-                class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1  md:pb-0"
-              >
-                Leverage automation to optimize time and resources, driving
-                significant improvements in..
-                <span class="text-[#005555]">More</span>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-span-1 flex justify-center">
-            <div class=" ">
-              <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
-               <img class="w-full h-full" src="./img/ensure.png" alt="">
-               <div class=" w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
-              </div>
-              <h1
-                class="text-lg md:text-xl lg:text-[32px] text-[#384252]  px-5 pt-2"
-              >
-                Ensure Data Accuracy
-              </h1>
-              <p
-                class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 md:pb-0"
-              >
-                Make informed decisions with precision through reliable data entry and comprehensive,
-                <span class="text-[#005555]">More</span>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-span-1 flex justify-center">
-            <div class=" ">
-              <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
-               <img class="w-full h-full" src="./img/cost.png" alt="">
-               <div class=" w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
-              </div>
-              <h1
-                class="text-lg md:text-xl lg:text-[32px] text-[#384252]  px-5 pt-2"
-              >
-                Reduce Cost
-              </h1>
-              <p
-                class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 "
-              >
-                Minimize manual tasks with streamlined automation solutions, leading to substantial
-                <span class="text-[#005555]">More</span>
-              </p>
-            </div>
-          </div>
-
-          <div class="col-span-1 flex justify-center">
-            <div class=" ">
-              <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
-               <img class="w-full h-full" src="./img/Streamline.png" alt="">
-               <div class=" w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
-              </div>
-              <h1
-                class="text-lg md:text-xl lg:text-[32px] text-[#384252]  px-5 pt-2"
-              >
-                Streamline Customer Support
-              </h1>
-              <p
-                class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 "
-              >
-                Simplify and improve customer support processes, ensuring a seamless experience for your
-                <span class="text-[#005555]">More</span>
-              </p>
-            </div>
-          </div>    
-     </div>
-  </div>
-  
-  <div class=" bgimage_3 ">
-    <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-14 lg:py-20">
-      <h1 class="archivo-black-regular text-white text-4xl md:text-5xl leading-[120%] text-center">Our Services</h1>
-      <div class=" text-center">
-        <img class="w-[60%] md:w-[30%] lg:w-auto inline-block ml-24 md:ml-30 mt-[-10px]" src="./img/line_4.png" alt="">
+        <a
+         href="#"
+         class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+         >Pricing</a
+        >
+        <a
+         href="#"
+         class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+         >Blog</a
+        >
+        <a
+         href="#"
+         class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+         >Contact Us</a
+        >
+       </div>
       </div>
-      <h4 class="max-w-[723px] mx-auto inter text-white text-lg md:text-2xl leading-[150%] text-center">Streamline processes, save time, and grow your business with cutting-edge automationbusiness</h4>
-      <div class="  grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-4 lg:gap-20 pt-20 lg:pt-40 px-5">
-
-        <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
-          <div class=" text-center">
-            <img class=" w-[120px] lg:w-auto inline-block mt-[-55px] lg:mt-[-65px]" src="./img/faild.png" alt="">
-          </div>
-          <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-5  lg:px-16 pt-5 pb-8">Failed Order Tracking</h1>
-        </div>
-        <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
-          <div class=" text-center">
-            <img class=" w-[120px] lg:w-auto inline-block mt-[-65px]" src="./img/fack.png" alt="">
-          </div>
-          <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-5 lg:px-16 pt-5 pb-8">Fake Order Detection</h1>
-        </div>
-        <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
-          <div class=" text-center">
-            <img class="w-[120px] lg:w-auto inline-block mt-[-65px]" src="./img/website.png" alt="">
-          </div>
-          <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-4 lg:px-12  pt-5 pb-8">One Click Website Design</h1>
-        </div>
-
+      <div class="lg:col-span-2 text-center float-right hidden lg:inline ">
+       <a href=""class="inline-block float-right">
+        <button class=" text-[20px] text-[#1BBABC] px-10 py-2 my-4 rounded-4xl border border-[#1BBABC] hover:bg-[#1BBABC] hover:text-white transition-all duration-300  ">
+         Signup 
+        </button>
+       </a>
       </div>
-    </div>
-
-  </div>
-
-  <div class=" bgimage_4 ">
-    <div class="max-w-[1200px] mx-auto p-2 py-16">
-      <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%]  text-center text-black">We’re the Right Choice for You</h1>
-      <div class="text-center">
-        <img class="w-[60%] md:w-[30%] lg:w-auto  inline-block ml-20 mt-[-10px]" src="./img/line_2.png" alt="">
+      <div class="lg:hidden col-span-1">
+       <button id="menu-toggle"class="text-black focus:outline-none float-right">
+         <svg class="w-6 h-6"fill="none"stroke="currentColor"viewBox="0 0 24 24"xmlns="http://www.w3.org/2000/svg">
+           <path stroke-linecap="round"stroke-linejoin="round"stroke-width="2"d="M4 6h16M4 12h16m-7 6h7"></path>
+         </svg>
+       </button>
       </div>
-      <h3 class="max-w-[850px] mx-auto inter text-[#7E7E7E] text-lg md:text-xl lg:text-2xl leading-[150%]  text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h3>
-      <div  class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 py-5 md:py-10 lg:py-16 lg:pb-24 inter ">
-        <div class="col-span-1 flex justify-center px-5">
-          <div class=" ">
-            <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
-             <img class="w-full h-full" src="./img/trust.png" alt="">
-            </div>
-            <div class=" w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
-            <h1 class="text-lg lg:text-[32px] text-[#384252]   pt-2" >
-              Expertise You Can Trust
-            </h1>
-            <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%]  py-1  md:pb-0">
-              Leverage automation to optimize time and resources, driving significant improvements in..
-              <span class="text-[#005555]">More</span>
-            </p>
-          </div>
-        </div>
-        <div class="col-span-1 flex justify-center px-5">
-          <div class=" ">
-            <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
-             <img class="w-full h-full" src="./img/ai.png" alt="">
-            </div>
-            <div class=" w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
-            <h1 class="text-lg lg:text-[32px] text-[#384252]   pt-2" >
-              Cutting-Edge Technology
-            </h1>
-            <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%]  py-1  md:pb-0">
-              Make informed decisions with precision through reliable data entry and comprehensive,
-              <span class="text-[#005555]">More</span>
-            </p>
-          </div>
-        </div>
-        <div class="col-span-1 flex justify-center px-5">
-          <div class=" ">
-            <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
-             <img class="w-full h-full" src="./img/solution.png" alt="">
-            </div>
-            <div class=" w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
-            <h1 class="text-lg lg:text-[32px] text-[#384252]   pt-2" >
-              Customized Solutions
-            </h1>
-            <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%]  py-1  md:pb-0">
-              Minimize manual tasks with streamlined automation solutions, leading to substantial
-              <span class="text-[#005555]">More</span>
-            </p>
-          </div>
-        </div>
-        <div class="col-span-1 flex justify-center px-5">
-          <div class=" ">
-            <div class="w-[67px] h-[92px] ">
-             <img class="w-full h-full " src="./img/support.png" alt="">
-            </div>
-            <div class=" w-[75px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
-            <h1 class="text-lg lg:text-[32px] text-[#384252]   pt-2" >
-              Exceptional Support
-            </h1>
-            <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%]  py-1  md:pb-0">
-              Simplify and improve customer support processes, ensuring a seamless experience for your 
-              <span class="text-[#005555]">More</span>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-        <a class=" md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Start Free Trial 
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-        <a class=" md:w-auto inline-block px-10 md:px-18 py-5  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Learn More  
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <div class=" bg-white "> 
-    <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
-      <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%]  text-center text-black"> Unlock the Magic of Automation</h1>
-      <div class="text-center">
-        <img class="w-[60%] md:w-[30%] lg:w-auto  inline-block md:ml-100 lg:ml-140 mt-[-15px]" src="./img/line_5.png" alt="">
-      </div>
-      <h4 class=" max-w-[907px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%]  text-center lg:px-8">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
-      <div class="py-4 md:py-8 lg:py-12 px-2">
-        <iframe class=" w-full h-[220px] md:h-[500px] lg:h-[683px] rounded-2xl lg:rounded-4xl" src="https://www.youtube.com/embed/JfIXRM3MwQo?si=I6nYNK90qGnxc2yU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-
-  <div class=" bgimage_5 ">
-    <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
-      <h1 class="archivo-black-regular text-2xl md:text-3xl lg:text-5xl leading-[120%]  text-center text-black"> Grow Faster with BizMation’s Features</h1>
-      <div class="">
-        <img class=" w-[50%] md:w-[30%] lg:w-auto md:ml-12 md:-mt-2 lg:ml-18 lg:-mt-4" src="./img/line_2.png" alt="">
-      </div>
-      <h4 class=" max-w-[984px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%]  text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h4>
-      <div class=" grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 p-4 pt-12 lg:pt-28 lg:pb-20">
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px]  px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >1</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            A single platform to fulfill all the needs of your e-commerce
-            business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >2</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            Advanced cloud backup systems ensure your data remains secure
-            at all times
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >3</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            Real-time tracking features keep you updated with every aspect
-            of your business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >4</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            A single platform to fulfill all the needs of your e-commerce
-            business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px]  px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >5</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            A single platform to fulfill all the needs of your e-commerce
-            business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >6</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            Real-time tracking features keep you updated with every aspect
-            of your business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >7</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            A single platform to fulfill all the needs of your e-commerce
-            business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >8</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            A single platform to fulfill all the needs of your e-commerce
-            business
-          </p>
-        </div>
-      </div>
-      <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
-        <div class="">
-          <div class="mt-[-44px]">
-            <span
-              class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
-              >9</span
-            >
-          </div>
-          <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
-            Real-time tracking features keep you updated with every aspect
-            of your business
-          </p>
-        </div>
+      <div id="mobile-menu"class="lg:hidden hidden col-span-3"> 
+      <div class="flex flex-col justify-between items-center ">
+       <a
+        href="#"
+        class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+        >Home</a
+       >
+       <a
+        href="#"
+        class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+        >Features</a
+       >
+       <a
+        href="#"
+        class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+        >Pricing</a
+       >
+       <a
+        href="#"
+        class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+        >Blog</a
+       >
+       <a
+        href="#"
+        class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
+        >Contact Us</a
+       >
+       <a href="#"class="inline-block float-right">
+        <button class=" text-[20px] text-[#1BBABC] px-10 py-2 my-4 rounded-4xl border border-[#1BBABC] hover:bg-[#1BBABC] hover:text-white transition-all duration-300 cursor-pointer ">
+         Signup 
+        </button>
+       </a>
       </div>
       </div>
       
-      <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-        <a class=" md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Start Free Trial 
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-        <a class=" md:w-auto inline-block px-10 md:px-18 py-5  bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Learn More  
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
-      </div>
+     </div>
+   </div>
+  </div>
+ </header>
+
+ <div class="bgimage_1">
+   
+  <div class="max-w-[1200px] mx-auto p-2 py-5 ">
+   <div class="md:py-5 text-center ">
+    <h1 class="archivo-black-regular text-xl md:text-5xl lg:text-[72px] leading-[120%] text-[#5B5B5B] text-center md:pt-4"><span class="text-[#ED6911]">Transform</span> Your Business with <span class="text-[#02A387]">Automation</span></h1>
+    <div class="inline-block mt-[-10px]">
+     <img class="w-[120px] md:w-[304px] lg:w-full ml-14 -mt-3 md:ml-34 lg:ml-0 md:mt-[-20px] "src="./img/vector_1.png"alt="">
+     <img class="w-[120px] md:w-[304px] lg:w-full ml-14 md:ml-34 lg:ml-6 -mt-4 md:mt-[-30px] lg:mt-[-22px]"src="./img/vector_2.png"alt="">
     </div>
+    <p class="max-w-[876px] mx-auto inter md:px-4 md:py-5 leading-[120%] lg:leading-[150%] tracking-normal text-[16px] lg:text-lg text-[#000000CC] text-center">Take your business to the next level with cutting-edge automation solutions. Streamline processes, save time, and boost efficiency, all while focusing on what truly matters—growing your business</p>
+   </div>
+   <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Start Free Trial 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Learn More 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+   </div>
+   <div class="text-center pt-5 lg:pt-16">
+    <img class="inline-block"src="./img/macBook.png"alt="">
+   </div>
+  </div>
+ </div>
+
+ <div class="bg-white ">
+  <div class="max-w-[1200px] mx-auto p-2 py-10">
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-0 lg:gap-8 items-center">
+    <div>
+     <img src="./img/growth.png"alt="">
+    </div>
+    <div>
+     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4">Drive Growth with Data-Driven Insights</h1>
+     <img class="w-[50%] md:w-[60%] lg:w-auto"src="./img/line_2.png"alt="">
+     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 text-[#3B3B3BB2] lg:pt-10">Understand your business metrics better and make smarter decisions with BizMation’s advanced analytics and tracking tools.</p>
+    </div>
+    <div class="md:pl-8 pt-5 md:pt-0">
+     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4 mr-10 md:ml-6">Streamline Your Workflow, Effortlessly</h1>
+     <img class="w-[50%] md:w-[60%] lg:w-auto"src="./img/line_2.png"alt="">
+     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 md:mx-6 text-[#3B3B3BB2] lg:pt-10">Experience seamless automation and simplify complex processes, allowing you to focus on growing your business.</p>
+    </div>
+    <div>
+     <img src="./img/workflow.png"alt="">
+    </div>
+   </div>
+   <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Start Free Trial 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Learn More 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+   </div>
+  
+  </div>
+ </div>
+ 
+ <div class="bgimage_2 "> 
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
+    <h1
+     class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-[#384252] text-center "
+    >
+     Why Choose BizMation
+    </h1>
+    <div class="text-center">
+     <img class="w-[40%] md:w-[25%] lg:w-auto inline-block ml-44 md:ml-64 lg:ml-80"src="./img/line_3.png"alt="">
+    </div>  
+    <div
+     class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 md:py-5 lg:py-16 lg:pb-10 inter"
+    >
+     <div class="col-span-1 flex justify-center">
+      <div class="">
+       <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
+        <img class="w-full h-full"src="./img/ennance.png"alt="">
+        <div class="w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
+       </div>
+       <h1
+        class="text-lg md:text-xl lg:text-[32px] text-[#384252] px-5 pt-2"
+       >
+        Enhance Operational Efficiency
+       </h1>
+       <p
+        class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 md:pb-0"
+       >
+        Leverage automation to optimize time and resources, driving
+        significant improvements in..
+        <span class="text-[#005555]">More</span>
+       </p>
+      </div>
+     </div>
+
+     <div class="col-span-1 flex justify-center">
+      <div class="">
+       <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
+        <img class="w-full h-full"src="./img/ensure.png"alt="">
+        <div class="w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
+       </div>
+       <h1
+        class="text-lg md:text-xl lg:text-[32px] text-[#384252] px-5 pt-2"
+       >
+        Ensure Data Accuracy
+       </h1>
+       <p
+        class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 md:pb-0"
+       >
+        Make informed decisions with precision through reliable data entry and comprehensive,
+        <span class="text-[#005555]">More</span>
+       </p>
+      </div>
+     </div>
+
+     <div class="col-span-1 flex justify-center">
+      <div class="">
+       <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
+        <img class="w-full h-full"src="./img/cost.png"alt="">
+        <div class="w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
+       </div>
+       <h1
+        class="text-lg md:text-xl lg:text-[32px] text-[#384252] px-5 pt-2"
+       >
+        Reduce Cost
+       </h1>
+       <p
+        class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 "
+       >
+        Minimize manual tasks with streamlined automation solutions, leading to substantial
+        <span class="text-[#005555]">More</span>
+       </p>
+      </div>
+     </div>
+
+     <div class="col-span-1 flex justify-center">
+      <div class="">
+       <div class="w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[120px] lg:h-[120px] mx-3">
+        <img class="w-full h-full"src="./img/Streamline.png"alt="">
+        <div class="w-[60px] lg:w-[91px] mx-auto border-b-[6px] border-[#F3D1DD] rounded-tr-2xl rounded-tl-2xl"></div>
+       </div>
+       <h1
+        class="text-lg md:text-xl lg:text-[32px] text-[#384252] px-5 pt-2"
+       >
+        Streamline Customer Support
+       </h1>
+       <p
+        class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] px-5 py-1 "
+       >
+        Simplify and improve customer support processes, ensuring a seamless experience for your
+        <span class="text-[#005555]">More</span>
+       </p>
+      </div>
+     </div>  
+   </div>
+ </div>
+ 
+ <div class="bgimage_3 ">
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-14 lg:py-20">
+   <h1 class="archivo-black-regular text-white text-4xl md:text-5xl leading-[120%] text-center">Our Services</h1>
+   <div class="text-center">
+    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block ml-24 md:ml-30 mt-[-10px]"src="./img/line_4.png"alt="">
+   </div>
+   <h4 class="max-w-[723px] mx-auto inter text-white text-lg md:text-2xl leading-[150%] text-center">Streamline processes, save time, and grow your business with cutting-edge automationbusiness</h4>
+   <div class=" grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-4 lg:gap-20 pt-20 lg:pt-40 px-5">
+
+    <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
+     <div class="text-center">
+      <img class="w-[120px] lg:w-auto inline-block mt-[-55px] lg:mt-[-65px]"src="./img/faild.png"alt="">
+     </div>
+     <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-5 lg:px-16 pt-5 pb-8">Failed Order Tracking</h1>
+    </div>
+    <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
+     <div class="text-center">
+      <img class="w-[120px] lg:w-auto inline-block mt-[-65px]"src="./img/fack.png"alt="">
+     </div>
+     <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-5 lg:px-16 pt-5 pb-8">Fake Order Detection</h1>
+    </div>
+    <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
+     <div class="text-center">
+      <img class="w-[120px] lg:w-auto inline-block mt-[-65px]"src="./img/website.png"alt="">
+     </div>
+     <h1 class="inter font-medium text-2xl lg:text-[32px] lg:leading-[48px] text-center text-white px-4 lg:px-12 pt-5 pb-8">One Click Website Design</h1>
+    </div>
+
+   </div>
   </div>
 
-  <div class=" bg-[#fbfbfd] ">
-    <div class=" max-w-[1200px] mx-auto p-2 py-5 md:py-10 ">
-      <h1 class="archivo-black-regular text-xl md:text-4xl lg:text-5xl leading-[120%]  text-center text-blackr">Some of Our Happy Clients</h1>
-      <div class="text-center">
-        <img class=" w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 mt-[-10px]" src="./img/line_5.png" alt="">
-      </div>   
-    </div>
-    <div class=" py-5">
-      <div class=" lg:p-8 relative">
-        <div class="owl-carousel owl-theme ">
-          <!-- Testimonial 1 -->
-          <div class="item">
-            <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center ">
-              <div>
-                <img class=" w-[60px] h-[60px] rounded-full" src="./img/abdhullahKarim.jpg" alt="">
-              </div>
-              <div class="text-yellow-400 text-2xl">★★★★☆</div>
-              <p class="gloryrigular text-[22px]">Abdul Karim</p>
-              <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমার বিজনেসে এই "বিজমেশন সফটওয়্যার" ব্যবহার করার পর থেকে স্মুথলি ভাবে অর্ডার ম্যানেজমেন্ট সহ, প্রয়োজনীয় ফিচার গুলো অসম্ভব ভাবে হেল্প করছে।ধন্যবাদ আপনাদের। দিনশেষে অর্ডারের পরিমাণ যতোই বেশি হোক না কেন, পুরো টিম সেগুলো আগের থেকে ঝামেলামুক্ত ভাবে মেইনটেইন করছে।  তবে, এই সফটওয়্যার যদি আরও আগে ব্যবহার করতে পারতাম অনেক লস এবং কাজের প্যারা থেকে বেঁচে রিলাক্স থাকতে পারতাম। দেরি হলেও এখন প্যারামুক্ত থাকছি। অনেক ধন্যবাদ আপনাদের।</p>
-             
-            </div>
-          </div><div class="item">
-            <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
-              <div>
-                <img class=" w-[60px] h-[60px] rounded-full" src="./img/moniruzzaman.jpg" alt="">
-              </div>
-              <div class="text-yellow-400 text-2xl">★★★★☆</div>
-              <p class="gloryrigular text-[22px]">Moniruzzaman</p>
-              <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমি বিজমেশন সফটওয়্যার অনেকদিন যাবত ব্যবহার করছি, এখানে অনেকগুলো চমৎকার ফিচার আছে, তবে আমার কাছে সবচাইতে স্মার্ট ফিচার মনে হয়েছে, ফেইল্ড অর্ডার ট্র্যাকিংটা। আগে প্রচুর কাষ্টমার আমার সাইটে এসে পারচেজ কমপ্লিট না করে চলে যেতো, আমি সেগুলো ট্র্যাক করতে পারতাম না। এখন সেটা অনায়াসেই পারি, এবং আমার টিম তাদের সাথে যোগাযোগ করে পারচেজ টা কমপ্লিট করিয়ে নিতে পারে। দৈনিক ১০০ টা ফেইল্ড অর্ডার হলে তাদের সাথে যোগাযোগের পর কমপক্ষে ২০-২৫ জন কাষ্টমার অর্ডার কমপ্লিট করে। এই অর্ডারগুলো কিন্তু আগে আমার মিস হয়ে যেতো, বিজমেশনের কারণে আমি এখন সেই অর্ডারগুলো পাচ্ছি। এই ২৫ টা অর্ডার থেকে আমি যদি সাকসেসফুললি ১০ টা অর্ডারও ডেলিভারী করতে পারি, তবু মাস শেষে আমার রেভিনিউ বাড়ে গড়ে ১০-b ১৫%। সব মিলিয়ে আমি খুবই হ্যাপি বিজমেশন ইউজ করে।</p>
-             
-            </div>
-          </div>
-          <!-- Testimonial 2 -->
-          <div class="item">
-            <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
-              <div>
-                <img class=" w-[60px] h-[60px] rounded-full" src="./img/Ainuzzaman.jpeg" alt="">
-              </div>
-              <div class="text-yellow-400 text-2xl">★★★★☆</div>
-              <p class="gloryrigular text-[22px]">Ainuzzaman Akash  </p>
-              <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"বিজমেশন ব্যবহার করার শুরু থেকেই ইনভেন্টরি ম্যানেজ করা নিয়ে আমাকে এক সেকেন্ডের জন্যও মাথা ঘামাতে হয়নি। এছাড়াও, বিজমেশনের কল্যানে আমাকে এখন আর ফেইল্ড অর্ডার এবং ফেইক অর্ডার নিয়ে টেনশনে থাকতে হয় না, বিশেষ করে ফেইল্ড অর্ডার ট্র্যাক করার ফিচারটা আমার কাছে সবচাইতে দারুন লাগে! এটি যেমন আমার প্রচুর টাকা সাশ্রয় করেছে, তেমনি করেছে প্রচুর সময় সাশ্রয়!
-                বিজমেশনের আরেকটা বিস্ময়কর ফিচার হলো, ওয়ান-ক্লিক ল্যান্ডিং পেজ বিল্ডার। আমি ভাবতাম একটি প্রফেশনাল লুকিং ল্যান্ডিং পেজ তৈরি করা বিশাল ঝামেলার কাজ ও সময় সাপেক্ষ, কিন্তু বিজমেশন এটিকে মাত্র কয়েকটি ক্লিকে নামিয়ে এনেছে, এখন আমার বিজনেসের জন্য যত খুশী ল্যান্ডিং পেজ বানাতে পারি, নিমিষেই! 
-                বিজমেশনকে ধন্যবাদ, এর সাহায্যে আমি এখন আমার ব্যবসা আরও ভালোভাবে পরিচালনা করতে পারছি। আপনি যদি একজন অনলাইন ব্যবসায়ী হন, তাহলে বিজমেশন আপনার জন্য মাষ্ট। কারণ বিজমেশন স্রেফ একটা বিজনেস অটোমেশন টুল নয়, এ যেন এক ম্যাজিক!</p>     
-            </div>
-          </div>
-          <!-- Add more testimonials here if needed -->
-        </div>
-    
-        <!-- Custom Navigation Buttons -->
-        <div class="flex justify-center space-x-4 mt-6">
-          
-            <button id="customPrev" class="text-center hover:text-white bg-[#F4F4F4] hover:bg-[#008080] text-[#5B6B86] text-[24px] px-[20px] py-[20px] font-semibold rounded-full cursor-pointer">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-              </svg>            
-            </button>
-          
-            <button id="customNext" class="text-center hover:text-white bg-[#F4F4F4] hover:bg-[#008080] text-[#5B6B86] text-[24px] px-[20px] py-[20px] font-semibold rounded-full cursor-pointer" >
-            
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-              </svg>                   
-            </button>
-        </div>
-      </div>
-  </div>
-  </div>
+ </div>
 
-  <div class=" bgimage_6  ">
-    <div class=" max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
-      <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%]  text-center text-blackr">Frequently Asked Questions</h1>
-      <div class="text-center">
-        <img class="  w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 lg:ml-120 mt-[-10px]" src="./img/line_6.png" alt="">
-      </div>  
-      <div  id="accordion-container" class="grid grid-cols-1 lg:grid-cols-2  gap-3 md:gap-6  lg:gap-12 p-2 py-5 md:py-10">
-        <div class=" grid gap-3 md:gap-6" >
-            <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-                <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section1')"> 
-                  <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">What is SaaS?</p>
-                  <img src="./img/heroicons_plus.png" alt="">
-                </button>
-                <div id="section1" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Bizmation is an all-in-one automated software solution specially designed for online businesses. It offers tools like a smart inventory system, one-click landing page creation, and Failed & fake order tracking to streamline operations, save time, and boost your business efficiency as well as profit.</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section2')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How does the fake order tracking system work?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section2" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section3')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Is Bizmation suitable for small businesses?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section3" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section4')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">What kind of support does Bizmation provide?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section4" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section5')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How much does Bizmation cost?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section5" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Our pricing is competitive and tailored to suit businesses of different scales. It is based on your delivery volume. Meaning, no order, no payment! Contact us for detailed pricing plans and offers.</div>
-            </div>             
-        </div>
-        <div class=" grid gap-3 md:gap-6" >
-            <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section6')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Who can use Bizmation?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section6" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>  
-            <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section7')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Can I create a landing page without technical skills?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section7" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section8')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How secure is my data with Bizmation?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section8" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">We prioritize the security of your data. Bizmation employs advanced encryption and data protection measures to ensure your business information is always safe.</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section9')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Is there a free trial available?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section9" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-            </div>
-            <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
-              <button class=" w-full flex justify-between items-center p-4 md:py-6 " onclick="toggleAccordion('section10')"> 
-                <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How do I get started with Bizmation?</p>
-                <img src="./img/heroicons_plus.png" alt="">
-              </button>
-              <div id="section10" class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">We offer dedicated customer support through phone, email, and chat to assist you with any issues or questions. Our team is committed to ensuring a smooth experience for you.</div>
-            </div>         
-        </div>
+ <div class="bgimage_4 ">
+  <div class="max-w-[1200px] mx-auto p-2 py-16">
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black">We’re the Right Choice for You</h1>
+   <div class="text-center">
+    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block ml-20 mt-[-10px]"src="./img/line_2.png"alt="">
+   </div>
+   <h3 class="max-w-[850px] mx-auto inter text-[#7E7E7E] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h3>
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 py-5 md:py-10 lg:py-16 lg:pb-24 inter ">
+    <div class="col-span-1 flex justify-center px-5">
+     <div class="">
+      <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
+       <img class="w-full h-full"src="./img/trust.png"alt="">
+      </div>
+      <div class="w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
+      <h1 class="text-lg lg:text-[32px] text-[#384252]  pt-2">
+       Expertise You Can Trust
+      </h1>
+      <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] py-1 md:pb-0">
+       Leverage automation to optimize time and resources, driving significant improvements in..
+       <span class="text-[#005555]">More</span>
+      </p>
+     </div>
+    </div>
+    <div class="col-span-1 flex justify-center px-5">
+     <div class="">
+      <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
+       <img class="w-full h-full"src="./img/ai.png"alt="">
+      </div>
+      <div class="w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
+      <h1 class="text-lg lg:text-[32px] text-[#384252]  pt-2">
+       Cutting-Edge Technology
+      </h1>
+      <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] py-1 md:pb-0">
+       Make informed decisions with precision through reliable data entry and comprehensive,
+       <span class="text-[#005555]">More</span>
+      </p>
+     </div>
+    </div>
+    <div class="col-span-1 flex justify-center px-5">
+     <div class="">
+      <div class="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px] ">
+       <img class="w-full h-full"src="./img/solution.png"alt="">
+      </div>
+      <div class="w-[80px] lg:w-[97px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
+      <h1 class="text-lg lg:text-[32px] text-[#384252]  pt-2">
+       Customized Solutions
+      </h1>
+      <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] py-1 md:pb-0">
+       Minimize manual tasks with streamlined automation solutions, leading to substantial
+       <span class="text-[#005555]">More</span>
+      </p>
+     </div>
+    </div>
+    <div class="col-span-1 flex justify-center px-5">
+     <div class="">
+      <div class="w-[67px] h-[92px] ">
+       <img class="w-full h-full "src="./img/support.png"alt="">
+      </div>
+      <div class="w-[75px] border-b-[6px] border-[#9BE0E3] rounded-tr-2xl rounded-tl-2xl pt-2"></div>
+      <h1 class="text-lg lg:text-[32px] text-[#384252]  pt-2">
+       Exceptional Support
+      </h1>
+      <p class="text-sm md:text-lg lg:text-[20px] text-[#3B3B3BB2] leading-[150%] py-1 md:pb-0">
+       Simplify and improve customer support processes, ensuring a seamless experience for your 
+       <span class="text-[#005555]">More</span>
+      </p>
+     </div>
+    </div>
+   </div>
+
+   <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Start Free Trial 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Learn More 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+   </div>
+  </div>
+ </div>
+
+ <div class="bg-white "> 
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black"> Unlock the Magic of Automation</h1>
+   <div class="text-center">
+    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block md:ml-100 lg:ml-140 mt-[-15px]"src="./img/line_5.png"alt="">
+   </div>
+   <h4 class="max-w-[907px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
+   <div class="py-4 md:py-8 lg:py-12 px-2">
+    <iframe class="w-full h-[220px] md:h-[500px] lg:h-[683px] rounded-2xl lg:rounded-4xl"src="https://www.youtube.com/embed/JfIXRM3MwQo?si=I6nYNK90qGnxc2yU"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe>
+   </div>
+  </div>
+ </div>
+
+ <div class="bgimage_5 ">
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
+   <h1 class="archivo-black-regular text-2xl md:text-3xl lg:text-5xl leading-[120%] text-center text-black"> Grow Faster with BizMation’s Features</h1>
+   <div class="">
+    <img class="w-[50%] md:w-[30%] lg:w-auto md:ml-12 md:-mt-2 lg:ml-18 lg:-mt-4"src="./img/line_2.png"alt="">
+   </div>
+   <h4 class="max-w-[984px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h4>
+   <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 p-4 pt-12 lg:pt-28 lg:pb-20">
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >1</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      A single platform to fulfill all the needs of your e-commerce
+      business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >2</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      Advanced cloud backup systems ensure your data remains secure
+      at all times
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >3</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      Real-time tracking features keep you updated with every aspect
+      of your business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >4</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      A single platform to fulfill all the needs of your e-commerce
+      business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >5</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      A single platform to fulfill all the needs of your e-commerce
+      business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >6</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      Real-time tracking features keep you updated with every aspect
+      of your business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >7</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      A single platform to fulfill all the needs of your e-commerce
+      business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >8</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      A single platform to fulfill all the needs of your e-commerce
+      business
+     </p>
+    </div>
+   </div>
+   <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
+    <div class="">
+     <div class="mt-[-44px]">
+      <span
+       class="text-[32px] px-5 py-1 text-[#005555] font-bold bg-white border border-[#F9DCCE] rounded-2xl"
+       >9</span
+      >
+     </div>
+     <p class="pt-5 p-1 lg:px-2 text-lg leading-[150%] text-[#3B3B3B]">
+      Real-time tracking features keep you updated with every aspect
+      of your business
+     </p>
+    </div>
+   </div>
+   </div>
+   
+   <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Start Free Trial 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Learn More 
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+   </div>
+  </div>
+ </div>
+
+ <div class="bg-[#fbfbfd] ">
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 ">
+   <h1 class="archivo-black-regular text-xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Some of Our Happy Clients</h1>
+   <div class="text-center">
+    <img class="w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 mt-[-10px]"src="./img/line_5.png"alt="">
+   </div>  
+  </div>
+  <div class="py-5">
+   <div class="lg:p-8 relative">
+    <div class="owl-carousel owl-theme ">
+     <!-- Testimonial 1 -->
+     <div class="item">
+      <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center ">
+       <div>
+        <img class="w-[60px] h-[60px] rounded-full"src="./img/abdhullahKarim.jpg"alt="">
+       </div>
+       <div class="text-yellow-400 text-2xl">★★★★☆</div>
+       <p class="gloryrigular text-[22px]">Abdul Karim</p>
+       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমার বিজনেসে এই "বিজমেশন সফটওয়্যার"ব্যবহার করার পর থেকে স্মুথলি ভাবে অর্ডার ম্যানেজমেন্ট সহ, প্রয়োজনীয় ফিচার গুলো অসম্ভব ভাবে হেল্প করছে।ধন্যবাদ আপনাদের। দিনশেষে অর্ডারের পরিমাণ যতোই বেশি হোক না কেন, পুরো টিম সেগুলো আগের থেকে ঝামেলামুক্ত ভাবে মেইনটেইন করছে। তবে, এই সফটওয়্যার যদি আরও আগে ব্যবহার করতে পারতাম অনেক লস এবং কাজের প্যারা থেকে বেঁচে রিলাক্স থাকতে পারতাম। দেরি হলেও এখন প্যারামুক্ত থাকছি। অনেক ধন্যবাদ আপনাদের।</p>
+       
+      </div>
+     </div><div class="item">
+      <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
+       <div>
+        <img class="w-[60px] h-[60px] rounded-full"src="./img/moniruzzaman.jpg"alt="">
+       </div>
+       <div class="text-yellow-400 text-2xl">★★★★☆</div>
+       <p class="gloryrigular text-[22px]">Moniruzzaman</p>
+       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমি বিজমেশন সফটওয়্যার অনেকদিন যাবত ব্যবহার করছি, এখানে অনেকগুলো চমৎকার ফিচার আছে, তবে আমার কাছে সবচাইতে স্মার্ট ফিচার মনে হয়েছে, ফেইল্ড অর্ডার ট্র্যাকিংটা। আগে প্রচুর কাষ্টমার আমার সাইটে এসে পারচেজ কমপ্লিট না করে চলে যেতো, আমি সেগুলো ট্র্যাক করতে পারতাম না। এখন সেটা অনায়াসেই পারি, এবং আমার টিম তাদের সাথে যোগাযোগ করে পারচেজ টা কমপ্লিট করিয়ে নিতে পারে। দৈনিক ১০০ টা ফেইল্ড অর্ডার হলে তাদের সাথে যোগাযোগের পর কমপক্ষে ২০-২৫ জন কাষ্টমার অর্ডার কমপ্লিট করে। এই অর্ডারগুলো কিন্তু আগে আমার মিস হয়ে যেতো, বিজমেশনের কারণে আমি এখন সেই অর্ডারগুলো পাচ্ছি। এই ২৫ টা অর্ডার থেকে আমি যদি সাকসেসফুললি ১০ টা অর্ডারও ডেলিভারী করতে পারি, তবু মাস শেষে আমার রেভিনিউ বাড়ে গড়ে ১০-b ১৫%। সব মিলিয়ে আমি খুবই হ্যাপি বিজমেশন ইউজ করে।</p>
+       
+      </div>
+     </div>
+     <!-- Testimonial 2 -->
+     <div class="item">
+      <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
+       <div>
+        <img class="w-[60px] h-[60px] rounded-full"src="./img/Ainuzzaman.jpeg"alt="">
+       </div>
+       <div class="text-yellow-400 text-2xl">★★★★☆</div>
+       <p class="gloryrigular text-[22px]">Ainuzzaman Akash </p>
+       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"বিজমেশন ব্যবহার করার শুরু থেকেই ইনভেন্টরি ম্যানেজ করা নিয়ে আমাকে এক সেকেন্ডের জন্যও মাথা ঘামাতে হয়নি। এছাড়াও, বিজমেশনের কল্যানে আমাকে এখন আর ফেইল্ড অর্ডার এবং ফেইক অর্ডার নিয়ে টেনশনে থাকতে হয় না, বিশেষ করে ফেইল্ড অর্ডার ট্র্যাক করার ফিচারটা আমার কাছে সবচাইতে দারুন লাগে! এটি যেমন আমার প্রচুর টাকা সাশ্রয় করেছে, তেমনি করেছে প্রচুর সময় সাশ্রয়!
+        বিজমেশনের আরেকটা বিস্ময়কর ফিচার হলো, ওয়ান-ক্লিক ল্যান্ডিং পেজ বিল্ডার। আমি ভাবতাম একটি প্রফেশনাল লুকিং ল্যান্ডিং পেজ তৈরি করা বিশাল ঝামেলার কাজ ও সময় সাপেক্ষ, কিন্তু বিজমেশন এটিকে মাত্র কয়েকটি ক্লিকে নামিয়ে এনেছে, এখন আমার বিজনেসের জন্য যত খুশী ল্যান্ডিং পেজ বানাতে পারি, নিমিষেই! 
+        বিজমেশনকে ধন্যবাদ, এর সাহায্যে আমি এখন আমার ব্যবসা আরও ভালোভাবে পরিচালনা করতে পারছি। আপনি যদি একজন অনলাইন ব্যবসায়ী হন, তাহলে বিজমেশন আপনার জন্য মাষ্ট। কারণ বিজমেশন স্রেফ একটা বিজনেস অটোমেশন টুল নয়, এ যেন এক ম্যাজিক!</p>   
+      </div>
+     </div>
+     <!-- Add more testimonials here if needed -->
+    </div>
+  
+    <!-- Custom Navigation Buttons -->
+    <div class="flex justify-center space-x-4 mt-6">
+     
+      <button id="customPrev"class="text-center hover:text-white bg-[#F4F4F4] hover:bg-[#008080] text-[#5B6B86] text-[24px] px-[20px] py-[20px] font-semibold rounded-full cursor-pointer">
+       <svg xmlns="http://www.w3.org/2000/svg"fill="none"viewBox="0 0 24 24"stroke-width="1.5"stroke="currentColor"class="size-8">
+        <path stroke-linecap="round"stroke-linejoin="round"d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18"/>
+       </svg>      
+      </button>
+     
+      <button id="customNext"class="text-center hover:text-white bg-[#F4F4F4] hover:bg-[#008080] text-[#5B6B86] text-[24px] px-[20px] py-[20px] font-semibold rounded-full cursor-pointer">
+      
+       <svg xmlns="http://www.w3.org/2000/svg"fill="none"viewBox="0 0 24 24"stroke-width="1.5"stroke="currentColor"class="size-8">
+        <path stroke-linecap="round"stroke-linejoin="round"d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"/>
+       </svg>          
+      </button>
+    </div>
+   </div>
+ </div>
+ </div>
+
+ <div class="bgimage_6 ">
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Frequently Asked Questions</h1>
+   <div class="text-center">
+    <img class=" w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 lg:ml-120 mt-[-10px]"src="./img/line_6.png"alt="">
+   </div> 
+   <div id="accordion-container"class="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-6 lg:gap-12 p-2 py-5 md:py-10">
+    <div class="grid gap-3 md:gap-6">
+      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
+        <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section1')"> 
+         <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">What is SaaS?</p>
+         <img src="./img/heroicons_plus.png"alt="">
+        </button>
+        <div id="section1"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Bizmation is an all-in-one automated software solution specially designed for online businesses. It offers tools like a smart inventory system, one-click landing page creation, and Failed & fake order tracking to streamline operations, save time, and boost your business efficiency as well as profit.</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section2')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How does the fake order tracking system work?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section2"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section3')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Is Bizmation suitable for small businesses?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section3"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section4')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">What kind of support does Bizmation provide?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section4"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section5')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How much does Bizmation cost?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section5"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Our pricing is competitive and tailored to suit businesses of different scales. It is based on your delivery volume. Meaning, no order, no payment! Contact us for detailed pricing plans and offers.</div>
+      </div>       
+    </div>
+    <div class="grid gap-3 md:gap-6">
+      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section6')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Who can use Bizmation?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section6"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
       </div> 
-      <h2 class="text-xl md:text-2xl leading-[150%] text-center text-[#3B3B3BCC] py-5 lg:py-10">Don’t find the actual topic you looking for?</h2>
-      <div class="py-5 inter text-center gap-12">
-        
-        <a class="inline-block px-5 md:px-18 py-5 bg bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl md:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl" href=" ">
-          Send Your Query
-          <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" inline-block ">
-            <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-          </svg> 
-        </a>
+      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section7')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Can I create a landing page without technical skills?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section7"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
       </div>
+      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section8')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How secure is my data with Bizmation?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section8"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">We prioritize the security of your data. Bizmation employs advanced encryption and data protection measures to ensure your business information is always safe.</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section9')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Is there a free trial available?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section9"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
+      </div>
+      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
+       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section10')"> 
+        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How do I get started with Bizmation?</p>
+        <img src="./img/heroicons_plus.png"alt="">
+       </button>
+       <div id="section10"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">We offer dedicated customer support through phone, email, and chat to assist you with any issues or questions. Our team is committed to ensuring a smooth experience for you.</div>
+      </div>     
     </div>
+   </div> 
+   <h2 class="text-xl md:text-2xl leading-[150%] text-center text-[#3B3B3BCC] py-5 lg:py-10">Don’t find the actual topic you looking for?</h2>
+   <div class="py-5 inter text-center gap-12">
+    
+    <a class="inline-block px-5 md:px-18 py-5 bg bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl md:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+     Send Your Query
+     <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
+      <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+     </svg> 
+    </a>
+   </div>
+  </div>
+ </div>
+
+ <div class="bgimage_7">
+  <div class="max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
+   <div class="md:flex gap-6 lg:gap-20 py-5 md:px-4 ">
+    <div class="flex-1">
+     <h1 class="archivo-black-regular text-xl md:text-3xl lg:text-5xl leading-[120%] text-blackr">Start Your Journey to Success Today</h1>
+     <div>
+      <img class="w-[50%] md:w-[40%] lg:w-auto ml-16 lg:-mt-3"src="./img/line_7.png"alt="">
+     </div>
+     <h4 class="gloryrigular text-lg lg:text-2xl leading-[150%] text-[#3B3B3B] lg:py-4">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
+     <div class="py-5 inter md:pt-16 lg:pt-20">
+      <a class="inline-block px-2 lg:px-8 py-2 lg:py-4 bg bg-white hover:bg-[#ED6911] text-[#464646] hover:text-white text-lg lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-2xl lg:rounded-3xl"href="">
+       Let’s Start 7 Days Free Trial
+       <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="size-12 lg:size-auto inline-block ">
+        <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
+       </svg> 
+      </a>
+     </div>
+    </div>
+    <div class="flex-1">
+     <div>
+      <div class="img_bg_1 ">
+       <div class="img_bg_2 text-center w-[96%] ">
+       <img class="inline-block "src="./img/image_1.png"alt="">
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+
   </div>
 
-  <div class="bgimage_7">
-    <div class=" max-w-[1200px] mx-auto p-2 py-5 md:py-10 lg:py-16">
-      <div class=" md:flex gap-6 lg:gap-20 py-5 md:px-4 ">
-        <div class=" flex-1">
-          <h1 class="archivo-black-regular text-xl md:text-3xl lg:text-5xl leading-[120%] text-blackr">Start Your Journey to Success Today</h1>
-          <div>
-            <img class=" w-[50%] md:w-[40%] lg:w-auto ml-16 lg:-mt-3" src="./img/line_7.png" alt="">
-          </div>
-          <h4 class="gloryrigular  text-lg lg:text-2xl leading-[150%]  text-[#3B3B3B] lg:py-4">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
-        
-          <div class="py-5 inter md:pt-16 lg:pt-20">
-            <a class="inline-block px-2 lg:px-8 py-2 lg:py-4 bg bg-white hover:bg-[#ED6911] text-[#464646] hover:text-white text-lg lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-2xl lg:rounded-3xl" href=" ">
-              Let’s Start 7 Days Free Trial
-              <svg width="80" height="40" viewBox="0 0 90 47" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" class=" size-12 lg:size-auto inline-block ">
-                <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971" stroke-width="3" stroke-linecap="square"/>
-              </svg> 
-            </a>
-          </div>
-        </div>
-        <div class=" flex-1">
-          <div>
-            <div class=" img_bg_1 ">
-             <div class="img_bg_2 text-center w-[96%] ">
-              <img class=" inline-block " src="./img/image_1.png" alt="">
-             </div>
-            </div>
-          </div>
-        </div>
+ </div>
+
+
+
+
+
+ <footer class="">
+  <div class="bgimage_8">
+   <div class="container mx-auto p-5 lg:pt-20">
+    <div
+     class="inter max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-7 gap-10 md:gap-5"
+    >
+     <div class="col-span-1 md:col-span-2 flex flex-col gap-2 md:gap-5">
+      <img
+       class="w-[110px] h-[36px]"
+       src="./img/logo.png"
+       alt=""
+      />
+
+      <div class="flex gap-1 md:gap-3">
+       <img src="./img/location_on.png"alt=""/>
+       <p class="text-[15px] text-[#C4C4C4]">
+        8819 Ohio St. South Gate, CA 90280
+       </p>
+      </div>
+      <div class="flex gap-1 md:gap-3">
+       <img src="./img/email.png"alt=""/>
+       <p class="text-[15px] text-[#C4C4C4]">Ourstudio@hello.com</p>
+      </div>
+      <div class="flex gap-1 md:gap-3">
+       <img src="./img/call.png"alt=""/>
+       <p class="text-[15px] text-[#C4C4C4]">+1 386-688-3295</p>
+      </div>
+     </div>
+
+     <div class="col-span-1 md:col-span-3 flex justify-start gap-5 lg:gap-24">
+      <div class="flex flex-col gap-2 md:gap-5">
+       <h1 class="text-[16px] text-[#FFFFFF] md:pb-4">Quick Links</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Home</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Feature</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Pricing</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Blog</h1>
       </div>
 
-    </div>
+      <div class="flex flex-col gap-2 md:gap-5">
+       <h1 class="text-[16px] text-[#FFFFFF] p md:pb-4">Company</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">About Us</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Affiliates</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Careers</h1>
+      </div>
 
+      <div class="flex flex-col gap-2 md:gap-5">
+       <h1 class="text-[16px] text-[#FFFFFF] md:pb-4">Resources</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Blog</h1>
+       <h1 class="text-[#C4C4C4] cursor-pointer">Newsletter</h1>
+      </div>
+     </div>
+
+     <div class="col-span-1 md:col-span-2 flex flex-col gap-2 md:gap-5">
+      <h1 class="text-[16px] text-[#FFFFFF] pb-1 md:pb-4">
+       Join a Newsletter
+      </h1>
+      <h1 class="text-[#C4C4C4]">Your Email</h1>
+      <input
+       class="w-full border-[1px] text-[#C4C4C4] outline border-[#B7B7B7] rounded-2xl outline-none px-2 py-3"
+       type="text"
+       placeholder="Enter You Email "
+      />
+      <a
+       href=""
+       class="w-full text-center bg-[#FFFFFF] text-[#373737] rounded-2xl px-2 my-2 py-3"
+       >Send</a
+      >
+     </div>
+    </div>
+   </div>
+   <hr class="text-[#FFFFFF33]"/>
+
+   <div class="container mx-auto p-5">
+    <div
+     class="max-w-[1200px] mx-auto flex flex-wrap justify-between gap-2"
+    >
+     <h1 class="text-[15px] md:text-[18px] text-[#FFFFFF]">
+      © 2025 BizMation, Inc. All rights reserved.
+     </h1>
+     <div class="flex gap-5">
+      <a
+       href=""
+       class="md:px-3 text-[#FFFFFF] text-[15px] md:text-[18px] broder-r-[1px] cursor-pointer"
+       >Privacy Policy</a
+      >
+
+      <a
+       href=""
+       class="px-3 text-[#FFFFFF] text-[15px] md:text-[18px] border-s-[#FFFFFF33] border-s-[1px] cursor-pointer"
+       >Terms of Use</a
+      >
+     </div>
+    </div>
+   </div>
   </div>
+ </footer>
 
 
 
+ <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
+ <script>
+  $(document).ready(function(){
+   const owl = $(".owl-carousel").owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false, // Disable default Owl Carousel navigation
+    responsive: {
+     0: {
+      items: 1 // 1 item on mobile devices
+     },
+     600: {
+      items: 2 // 2 items on tablets
+     },
+     
+    }
+   });
 
-  <footer class="">
-    <div class="bgimage_8">
-      <div class="container mx-auto p-5 lg:pt-20">
-        <div
-          class="inter max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-7 gap-10 md:gap-5"
-        >
-          <div class="col-span-1 md:col-span-2 flex flex-col gap-2 md:gap-5">
-            <img
-              class="w-[110px] h-[36px]"
-              src="./img/logo.png"
-              alt=""
-            />
+   // Custom Navigation Buttons
+   $("#customNext").click(function() {
+    owl.trigger('next.owl.carousel');
+   });
+   $("#customPrev").click(function() {
+    owl.trigger('prev.owl.carousel');
+   });
+  });
+ </script>
 
-            <div class="flex gap-1 md:gap-3">
-              <img src="./img/location_on.png" alt="" />
-              <p class="text-[15px] text-[#C4C4C4]">
-                8819 Ohio St. South Gate, CA 90280
-              </p>
-            </div>
-            <div class="flex gap-1 md:gap-3">
-              <img src="./img/email.png" alt="" />
-              <p class="text-[15px] text-[#C4C4C4]">Ourstudio@hello.com</p>
-            </div>
-            <div class="flex gap-1 md:gap-3">
-              <img src="./img/call.png" alt="" />
-              <p class="text-[15px] text-[#C4C4C4]">+1 386-688-3295</p>
-            </div>
-          </div>
-
-          <div class="col-span-1 md:col-span-3 flex justify-start gap-5 lg:gap-24">
-            <div class="flex flex-col gap-2 md:gap-5">
-              <h1 class="text-[16px] text-[#FFFFFF] md:pb-4">Quick Links</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Home</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Feature</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Pricing</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Blog</h1>
-            </div>
-
-            <div class="flex flex-col gap-2 md:gap-5">
-              <h1 class="text-[16px] text-[#FFFFFF] p md:pb-4">Company</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">About Us</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Affiliates</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Careers</h1>
-            </div>
-
-            <div class="flex flex-col gap-2 md:gap-5">
-              <h1 class="text-[16px] text-[#FFFFFF] md:pb-4">Resources</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Blog</h1>
-              <h1 class="text-[#C4C4C4] cursor-pointer">Newsletter</h1>
-            </div>
-          </div>
-
-          <div class="col-span-1 md:col-span-2 flex flex-col gap-2 md:gap-5">
-            <h1 class="text-[16px] text-[#FFFFFF] pb-1 md:pb-4">
-              Join a Newsletter
-            </h1>
-            <h1 class="text-[#C4C4C4]">Your Email</h1>
-            <input
-              class="w-full border-[1px] text-[#C4C4C4] outline border-[#B7B7B7] rounded-2xl outline-none px-2 py-3"
-              type="text"
-              placeholder="Enter You Email "
-            />
-            <a
-              href=""
-              class="w-full text-center bg-[#FFFFFF] text-[#373737] rounded-2xl px-2 my-2 py-3"
-              >Send</a
-            >
-          </div>
-        </div>
-      </div>
-      <hr class="text-[#FFFFFF33]" />
-
-      <div class="container mx-auto p-5">
-        <div
-          class="max-w-[1200px] mx-auto flex flex-wrap justify-between gap-2"
-        >
-          <h1 class="text-[15px] md:text-[18px] text-[#FFFFFF]">
-            © 2025 BizMation, Inc. All rights reserved.
-          </h1>
-          <div class="flex gap-5">
-            <a
-              href=""
-              class="md:px-3 text-[#FFFFFF] text-[15px] md:text-[18px] broder-r-[1px] cursor-pointer"
-              >Privacy Policy</a
-            >
-
-            <a
-              href=""
-              class="px-3 text-[#FFFFFF] text-[15px] md:text-[18px] border-s-[#FFFFFF33] border-s-[1px] cursor-pointer"
-              >Terms of Use</a
-            >
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-
+ <script>
+   document.getElementById('menu-toggle').addEventListener('click', function() {
+     var mobileMenu = document.getElementById('mobile-menu');
+     mobileMenu.classList.toggle('hidden');
+   });
+ </script>
   <script>
-    $(document).ready(function(){
-      const owl = $(".owl-carousel").owlCarousel({
-        loop: true,
-        margin: 20,
-        nav: false, // Disable default Owl Carousel navigation
-        responsive: {
-          0: {
-            items: 1 // 1 item on mobile devices
-          },
-          600: {
-            items: 2 // 2 items on tablets
-          },
-          
+  function toggleAccordion(id) {
+      const sections = document.getElementById('accordion-container').querySelectorAll("div[id]");
+      sections.forEach(section => {
+        if (section.id !== id) {
+          section.classList.add("hidden");
         }
       });
-
-      // Custom Navigation Buttons
-      $("#customNext").click(function() {
-        owl.trigger('next.owl.carousel');
-      });
-      $("#customPrev").click(function() {
-        owl.trigger('prev.owl.carousel');
-      });
-    });
-  </script>
-
-  <script>
-      document.getElementById('menu-toggle').addEventListener('click', function() {
-          var mobileMenu = document.getElementById('mobile-menu');
-          mobileMenu.classList.toggle('hidden');
-      });
-  </script>
-   <script>
-    function toggleAccordion(id) {
-            const sections = document.getElementById('accordion-container').querySelectorAll("div[id]");
-            sections.forEach(section => {
-                if (section.id !== id) {
-                    section.classList.add("hidden");
-                }
-            });
-            document.getElementById(id).classList.toggle("hidden");
-        }
-  </script>
+      document.getElementById(id).classList.toggle("hidden");
+    }
+ </script>
 </body>
 </html>
