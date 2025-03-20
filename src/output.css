@@ -254,11 +254,20 @@
   .sticky {
     position: sticky;
   }
+  .top-0 {
+    top: calc(var(--spacing) * 0);
+  }
+  .left-0 {
+    left: calc(var(--spacing) * 0);
+  }
   .isolate {
     isolation: isolate;
   }
   .isolation-auto {
     isolation: auto;
+  }
+  .z-50 {
+    z-index: 50;
   }
   .z-auto {
     z-index: auto;
@@ -373,6 +382,16 @@
     @media (width >= 96rem) {
       max-width: 96rem !important;
     }
+  }
+  .container {
+    margin: auto;
+    padding: 10px;
+    max-width: 1200px;
+  }
+  .container\! {
+    margin: auto !important;
+    padding: 10px !important;
+    max-width: 1200px !important;
   }
   .m-5 {
     margin: calc(var(--spacing) * 5);
