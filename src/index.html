@@ -16,19 +16,19 @@
     <div class="max-w-[1200px] mx-auto px-5 xl:px-0 ">
       <div class="gloryrigular grid grid-cols-3 items-center lg:grid-cols-7 gap-3">
         <div class="col-span-2">
-         <div class="p-1 cursor-pointer">
-          <img src="./img/logo.png"alt=""/>
+         <div class="p-1">
+          <a href="#home"><img src="./img/logo.png"alt=""/></a>
          </div>
         </div>
         <div class="col-span-1 lg:col-span-3 hidden lg:inline ">
          <div class="lg:flex justify-between items-center ">
           <a
-           href="#"
+           href="#home"
            class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
            >Home</a
           >
           <a
-           href="#"
+           href="#features"
            class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
            >Features</a
           >
@@ -43,7 +43,7 @@
            >Blog</a
           >
           <a
-           href="#"
+           href="#contact_us"
            class="text-[20px] py-5 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
            >Contact Us</a
           >
@@ -66,12 +66,12 @@
         <div id="mobile-menu"class="lg:hidden hidden col-span-3"> 
         <div class="flex flex-col justify-between items-center ">
          <a
-          href="#"
+          href="#home"
           class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
           >Home</a
          >
          <a
-          href="#"
+          href="#features"
           class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
           >Features</a
          >
@@ -86,7 +86,7 @@
           >Blog</a
          >
          <a
-          href="#"
+          href="#contact_us"
           class="text-[20px] py-1 border-b-2 border-transparent hover:border-[#5B5B5B] transition-all ease-in-out focus:border-b-[3px] focus:font-bold focus:border-[#5B5B5B] text-[#6B6B6B] hover:text-[#6B6B6B] focus:text-[#5B5B5B]"
           >Contact Us</a
          >
@@ -102,30 +102,33 @@
   </div>
  </header>
 
- <div class="bgimage_1">
+ <div id="home" class="bgimage_1">
   <div class="container py-5 pt-20 ">
    <div class="md:py-5 text-center ">
-    <h1 class="archivo-black-regular text-xl md:text-5xl lg:text-[72px] leading-[120%] text-[#5B5B5B] text-center md:pt-4"><span class="text-[#ED6911]">Transform</span> Your Business with <span class="text-[#02A387]">Automation</span></h1>
-    <div class="inline-block mt-[-10px]">
-     <img class="w-[120px] md:w-[304px] lg:w-full ml-14 -mt-3 md:ml-34 lg:ml-0 md:mt-[-20px] "src="./img/vector_1.png"alt="">
-     <img class="w-[120px] md:w-[304px] lg:w-full ml-14 md:ml-34 lg:ml-6 -mt-4 md:mt-[-30px] lg:mt-[-22px]"src="./img/vector_2.png"alt="">
-    </div>
-    <p class="max-w-[876px] mx-auto inter md:px-4 md:py-5 leading-[120%] lg:leading-[150%] tracking-normal text-[16px] lg:text-lg text-[#000000CC] text-center">Take your business to the next level with cutting-edge automation solutions. Streamline processes, save time, and boost efficiency, all while focusing on what truly matters—growing your business</p>
+    <h1 class="archivo-black-regular text-xl md:text-5xl lg:text-[70px] leading-[120%] text-[#5B5B5B] text-center md:pt-4"><span class="text-[#ED6911]">Transform</span> Your Business with 
+      <span class="text-[#02A387] relative">
+        Automation
+      <img class="w-full absolute left-0 bottom-[-5px] md:bottom-[-8px] lg:bottom-[-12px] "src="./img/vector_1.png"alt="">
+      <img class="w-full absolute left-0 lg:bottom-[-25px] "src="./img/vector_2.png"alt="">
+    </span></h1>
+    <p class="max-w-[876px] mx-auto inter md:px-4 md:pb-5 pt-3 md:pt-8 lg:pt-12 leading-[120%] lg:leading-[150%] tracking-normal text-[16px] lg:text-lg text-[#000000CC] text-center">Take your business to the next level with cutting-edge automation solutions. Streamline processes, save time, and boost efficiency, all while focusing on what truly matters—growing your business</p>
    </div>
+
    <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-[#0FB7BE] text-white text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Start Free Trial 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
      </svg> 
     </a>
-    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white text-[#464646] text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Learn More 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
      </svg> 
     </a>
    </div>
+   
    <div class="text-center pt-5 lg:pt-16">
     <img class="inline-block"src="./img/macBook.png"alt="">
    </div>
@@ -139,27 +142,37 @@
      <img src="./img/growth.png"alt="">
     </div>
     <div>
-     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4">Drive Growth with Data-Driven Insights</h1>
-     <img class="w-[50%] md:w-[60%] lg:w-auto"src="./img/line_2.png"alt="">
-     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 text-[#3B3B3BB2] lg:pt-10">Understand your business metrics better and make smarter decisions with BizMation’s advanced analytics and tracking tools.</p>
+     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4">Drive Growth with 
+      <span class="relative">
+        Data-Driven 
+        <img class="w-full absolute left-0" src="./img/line_2.png"alt="">
+      </span>
+      Insights
+    </h1>
+     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 text-[#3B3B3BB2] pt-5 md:pt-10">Understand your business metrics better and make smarter decisions with BizMation’s advanced analytics and tracking tools.</p>
     </div>
     <div class="md:pl-8 pt-5 md:pt-0">
-     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4 mr-10 md:ml-6">Streamline Your Workflow, Effortlessly</h1>
-     <img class="w-[50%] md:w-[60%] lg:w-auto"src="./img/line_2.png"alt="">
-     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 md:mx-6 text-[#3B3B3BB2] lg:pt-10">Experience seamless automation and simplify complex processes, allowing you to focus on growing your business.</p>
+     <h1 class="archivo-black-regula text-2xl md:text-3xl lg:text-5xl leading-[120%] text-[#384252] font-extrabold ml-4 mr-10 md:ml-6">Streamline Your Workflow, 
+      <span class="relative">
+        Effortlessly
+        <img class="w-full absolute left-0" src="./img/line_2.png"alt="">
+      </span>
+    </h1>
+     <p class="inter text-xl md:text-2xl lg:text-[32px] leading-[150%] mx-4 md:mx-6 text-[#3B3B3BB2] pt-5 lg:pt-10">Experience seamless automation and simplify complex processes, allowing you to focus on growing your business.</p>
     </div>
     <div>
      <img src="./img/workflow.png"alt="">
     </div>
    </div>
-   <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+
+  <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-[#0FB7BE] text-white text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Start Free Trial 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
      </svg> 
     </a>
-    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white text-[#464646] text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Learn More 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
@@ -175,11 +188,8 @@
     <h1
      class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-[#384252] text-center "
     >
-     Why Choose BizMation
+     Why Choose <span class="relative">BizMation <img class="w-full absolute left-0 bottom-[-15px] md:bottom-[-22px] lg:bottom-[-30px]" src="./img/line_3.png"alt=""></span>
     </h1>
-    <div class="text-center">
-     <img class="w-[40%] md:w-[25%] lg:w-auto inline-block ml-44 md:ml-64 lg:ml-80"src="./img/line_3.png"alt="">
-    </div>  
     <div
      class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 md:py-5 lg:py-16 lg:pb-10 inter"
     >
@@ -268,11 +278,8 @@
  
  <div class="bgimage_3 ">
   <div class="container py-5 md:py-14 lg:py-20">
-   <h1 class="archivo-black-regular text-white text-4xl md:text-5xl leading-[120%] text-center">Our Services</h1>
-   <div class="text-center">
-    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block ml-24 md:ml-30 mt-[-10px]"src="./img/line_4.png"alt="">
-   </div>
-   <h4 class="max-w-[723px] mx-auto inter text-white text-lg md:text-2xl leading-[150%] text-center">Streamline processes, save time, and grow your business with cutting-edge automationbusiness</h4>
+   <h1 class="archivo-black-regular text-white text-4xl md:text-5xl leading-[120%] text-center">Our <span class="relative">Services <img class="w-full absolute left-0 bottom-[-20px] md:bottom-[-28px]" src="./img/line_4.png"alt=""></span></h1>
+   <h4 class="max-w-[723px] mx-auto inter text-white text-lg md:text-2xl leading-[150%] text-center pt-5 md:pt-10">Streamline processes, save time, and grow your business with cutting-edge automationbusiness</h4>
    <div class=" grid grid-cols-1 md:grid-cols-3 gap-20 md:gap-4 lg:gap-20 pt-20 lg:pt-40 px-5">
 
     <div class="bg-[#00000030] border border-[#FFFFFFCC] border-b-0 p-1 rounded-3xl drop_shadow_4">
@@ -301,11 +308,8 @@
 
  <div class="bgimage_4 ">
   <div class="container py-16">
-   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black">We’re the Right Choice for You</h1>
-   <div class="text-center">
-    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block ml-20 mt-[-10px]"src="./img/line_2.png"alt="">
-   </div>
-   <h3 class="max-w-[850px] mx-auto inter text-[#7E7E7E] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h3>
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black">We’re the <span class="relative">Right Choice <img class="w-full absolute left-0 bottom-[-20px] md:bottom-[-32px] hidden md:block" src="./img/line_2.png"alt=""></span> for You</h1>
+   <h3 class="max-w-[850px] mx-auto inter text-[#7E7E7E] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8 pt-5 md:pt-10">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h3>
    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-14 py-5 md:py-10 lg:py-16 lg:pb-24 inter ">
     <div class="col-span-1 flex justify-center px-5">
      <div class="">
@@ -370,13 +374,13 @@
    </div>
 
    <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-[#0FB7BE] text-white text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Start Free Trial 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
      </svg> 
     </a>
-    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white text-[#464646] text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Learn More 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
@@ -388,24 +392,18 @@
 
  <div class="bg-white "> 
   <div class="container py-5 md:py-10 lg:py-16">
-   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black"> Unlock the Magic of Automation</h1>
-   <div class="text-center">
-    <img class="w-[60%] md:w-[30%] lg:w-auto inline-block md:ml-100 lg:ml-140 mt-[-15px]"src="./img/line_5.png"alt="">
-   </div>
-   <h4 class="max-w-[907px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-black"> Unlock the Magic of <span class="relative">Automation <img class="w-full absolute left-0 bottom-[-16px] md:bottom-[-22px] lg:bottom-[-32px]" src="./img/line_5.png"alt=""></span></h1>
+   <h4 class="max-w-[907px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8 pt-5 md:pt-10">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
    <div class="py-4 md:py-8 lg:py-12 px-2">
     <iframe class="w-full h-[220px] md:h-[500px] lg:h-[683px] rounded-2xl lg:rounded-4xl"src="https://www.youtube.com/embed/JfIXRM3MwQo?si=I6nYNK90qGnxc2yU"title="YouTube video player"frameborder="0"allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"referrerpolicy="strict-origin-when-cross-origin"allowfullscreen></iframe>
    </div>
   </div>
  </div>
 
- <div class="bgimage_5 ">
+ <div id="features" class="bgimage_5 ">
   <div class="container py-5 md:py-10 lg:py-16">
-   <h1 class="archivo-black-regular text-2xl md:text-3xl lg:text-5xl leading-[120%] text-center text-black"> Grow Faster with BizMation’s Features</h1>
-   <div class="">
-    <img class="w-[50%] md:w-[30%] lg:w-auto md:ml-12 md:-mt-2 lg:ml-18 lg:-mt-4"src="./img/line_2.png"alt="">
-   </div>
-   <h4 class="max-w-[984px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h4>
+   <h1 class="archivo-black-regular text-2xl md:text-3xl lg:text-5xl leading-[170%] md:leading-[120%] text-center text-black"><span class="relative">Grow Faster <img class="w-full absolute left-0 bottom-[-15px] md:bottom-[-32px]" src="./img/line_2.png"alt=""></span> with BizMation’s Features</h1>
+   <h4 class="max-w-[984px] mx-auto inter text-[#3B3B3BB2] text-lg md:text-xl lg:text-2xl leading-[150%] text-center lg:px-8 pt-3 md:pt-10">Discover the key reasons why businesses trust us to deliver exceptional results. From tailored solutions to expert support, we’re here to ensure your success every step of the way</h4>
    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 lg:gap-20 p-4 pt-12 lg:pt-28 lg:pb-20">
    <div class="bg-[#FFFFFF] text-[#3B3B3B] p-4 lg:p-6 rounded-2xl shadow-lg">
     <div class="">
@@ -536,13 +534,13 @@
    </div>
    
    <div class="py-5 lg:py-10 inter md:flex md:justify-center md:items-center text-center gap-6 lg:gap-12">
-    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-6 md:px-18 py-5 mb-5 md:mb-0 bg-[#0FB7BE] text-white text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Start Free Trial 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
      </svg> 
     </a>
-    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="md:w-auto inline-block px-10 md:px-18 py-5 bg-white text-[#464646] text-xl lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Learn More 
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
@@ -554,50 +552,53 @@
 
  <div class="bg-[#fbfbfd] ">
   <div class="container py-5 md:py-10 ">
-   <h1 class="archivo-black-regular text-xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Some of Our Happy Clients</h1>
-   <div class="text-center">
-    <img class="w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 mt-[-10px]"src="./img/line_5.png"alt="">
-   </div>  
+   <h1 class="archivo-black-regular text-xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Some of Our <span class="relative">Happy Clients <img class="w-full absolute left-0 bottom-[-20px] md:bottom-[-32px] lg:bottom-[-40px]" src="./img/line_5.png"alt=""></span></h1>  
   </div>
   <div class="py-5">
    <div class="lg:p-8 relative">
     <div class="owl-carousel owl-theme ">
-     <!-- Testimonial 1 -->
      <div class="item">
-      <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center ">
-       <div>
-        <img class="w-[60px] h-[60px] rounded-full"src="./img/abdhullahKarim.jpg"alt="">
-       </div>
-       <div class="text-yellow-400 text-2xl">★★★★☆</div>
-       <p class="gloryrigular text-[22px]">Abdul Karim</p>
-       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমার বিজনেসে এই "বিজমেশন সফটওয়্যার"ব্যবহার করার পর থেকে স্মুথলি ভাবে অর্ডার ম্যানেজমেন্ট সহ, প্রয়োজনীয় ফিচার গুলো অসম্ভব ভাবে হেল্প করছে।ধন্যবাদ আপনাদের। দিনশেষে অর্ডারের পরিমাণ যতোই বেশি হোক না কেন, পুরো টিম সেগুলো আগের থেকে ঝামেলামুক্ত ভাবে মেইনটেইন করছে। তবে, এই সফটওয়্যার যদি আরও আগে ব্যবহার করতে পারতাম অনেক লস এবং কাজের প্যারা থেকে বেঁচে রিলাক্স থাকতে পারতাম। দেরি হলেও এখন প্যারামুক্ত থাকছি। অনেক ধন্যবাদ আপনাদের।</p>
-       
-      </div>
-     </div><div class="item">
-      <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
-       <div>
-        <img class="w-[60px] h-[60px] rounded-full"src="./img/moniruzzaman.jpg"alt="">
-       </div>
-       <div class="text-yellow-400 text-2xl">★★★★☆</div>
-       <p class="gloryrigular text-[22px]">Moniruzzaman</p>
-       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"আমি বিজমেশন সফটওয়্যার অনেকদিন যাবত ব্যবহার করছি, এখানে অনেকগুলো চমৎকার ফিচার আছে, তবে আমার কাছে সবচাইতে স্মার্ট ফিচার মনে হয়েছে, ফেইল্ড অর্ডার ট্র্যাকিংটা। আগে প্রচুর কাষ্টমার আমার সাইটে এসে পারচেজ কমপ্লিট না করে চলে যেতো, আমি সেগুলো ট্র্যাক করতে পারতাম না। এখন সেটা অনায়াসেই পারি, এবং আমার টিম তাদের সাথে যোগাযোগ করে পারচেজ টা কমপ্লিট করিয়ে নিতে পারে। দৈনিক ১০০ টা ফেইল্ড অর্ডার হলে তাদের সাথে যোগাযোগের পর কমপক্ষে ২০-২৫ জন কাষ্টমার অর্ডার কমপ্লিট করে। এই অর্ডারগুলো কিন্তু আগে আমার মিস হয়ে যেতো, বিজমেশনের কারণে আমি এখন সেই অর্ডারগুলো পাচ্ছি। এই ২৫ টা অর্ডার থেকে আমি যদি সাকসেসফুললি ১০ টা অর্ডারও ডেলিভারী করতে পারি, তবু মাস শেষে আমার রেভিনিউ বাড়ে গড়ে ১০-b ১৫%। সব মিলিয়ে আমি খুবই হ্যাপি বিজমেশন ইউজ করে।</p>
-       
-      </div>
+        <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center ">
+        <div>
+          <img class="w-[60px] h-[60px] rounded-full"src="./img/abdhullahKarim.jpg"alt="">
+        </div>
+        <div class="text-yellow-400 text-2xl">★★★★☆</div>
+        <p class="gloryrigular text-[22px]">Abdul Karim</p>
+        <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"অর্ডার ম্যানেজমেন্ট এখন আগের চেয়ে অনেক স্মুথ, পুরো টিম ঝামেলামুক্তভাবে কাজ করছে। বিজমেশন প্রয়োজনীয় ফিচার দিয়ে অসম্ভবভাবে হেল্প করছে, কাজের প্যারা অনেক কমে গেছে। দেরিতে হলেও এখন প্যারামুক্ত হয়ে রিলাক্স থাকতে পারছি, ধন্যবাদ বিজমেশন
+        </p>   
+        </div>
      </div>
-     <!-- Testimonial 2 -->
+     <div class="item">
+        <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
+        <div>
+          <img class="w-[60px] h-[60px] rounded-full"src="./img/moniruzzaman.jpg"alt="">
+        </div>
+        <div class="text-yellow-400 text-2xl">★★★★☆</div>
+        <p class="gloryrigular text-[22px]">Moniruzzaman</p>
+        <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"বিজমেশনের ফেইল্ড অর্ডার ট্র্যাকিং ফিচার আমাকে সবচাইতে বেশি হেল্প করেছে, কারণ আগে মিস হওয়া অর্ডারগুলো এখন অনায়াসেই রিকভার করতে পারছি। দৈনিক ১০০টা ফেইল্ড অর্ডারের মধ্যে অন্তত ২০-২৫টা অর্ডার রিকভার হয়, যা আগে সম্ভব ছিল না। এইভাবে মাস শেষে আমার রেভিনিউ গড়ে ১০-১৫% পর্যন্ত বেড়ে যায়, যা আমাকে বিজমেশন নিয়ে খুবই সন্তুষ্ট করেছে।
+        </p>
+        </div>
+     </div>
+     <div class="item">
+        <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
+        <div>
+          <img class="w-[60px] h-[60px] rounded-full"src="./img/Ainuzzaman.jpeg"alt="">
+        </div>
+        <div class="text-yellow-400 text-2xl">★★★★☆</div>
+        <p class="gloryrigular text-[22px]">Ainuzzaman Akash </p>
+        <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">" বিজমেশন ব্যবহারের পর থেকে ইনভেন্টরি ম্যানেজমেন্ট, ফেইল্ড অর্ডার ও ফেইক অর্ডার নিয়ে কোনো টেনশন নেই, বিশেষ করে ফেইল্ড অর্ডার ট্র্যাকিং ফিচারটি অসাধারণ! এটি শুধু আমার প্রচুর টাকা সাশ্রয়ই করেনি, বরং সময়ও বাঁচিয়েছে। আরেকটি দারুণ ফিচার হলো ওয়ান-ক্লিক ল্যান্ডিং পেজ বিল্ডার, যা ল্যান্ডিং পেজ তৈরি করার ঝামেলাকে নিমিষেই দূর করেছে। বিজমেশন শুধু একটি বিজনেস অটোমেশন টুল নয়, এটি সত্যিকারের একটি ম্যাজিক।</p>   
+        </div>
+     </div>
      <div class="item">
       <div class="bg-white flex flex-col items-center justify-center gap-4 p-6 m-5 rounded-lg drop_shadow_5 text-center">
-       <div>
-        <img class="w-[60px] h-[60px] rounded-full"src="./img/Ainuzzaman.jpeg"alt="">
-       </div>
-       <div class="text-yellow-400 text-2xl">★★★★☆</div>
-       <p class="gloryrigular text-[22px]">Ainuzzaman Akash </p>
-       <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"বিজমেশন ব্যবহার করার শুরু থেকেই ইনভেন্টরি ম্যানেজ করা নিয়ে আমাকে এক সেকেন্ডের জন্যও মাথা ঘামাতে হয়নি। এছাড়াও, বিজমেশনের কল্যানে আমাকে এখন আর ফেইল্ড অর্ডার এবং ফেইক অর্ডার নিয়ে টেনশনে থাকতে হয় না, বিশেষ করে ফেইল্ড অর্ডার ট্র্যাক করার ফিচারটা আমার কাছে সবচাইতে দারুন লাগে! এটি যেমন আমার প্রচুর টাকা সাশ্রয় করেছে, তেমনি করেছে প্রচুর সময় সাশ্রয়!
-        বিজমেশনের আরেকটা বিস্ময়কর ফিচার হলো, ওয়ান-ক্লিক ল্যান্ডিং পেজ বিল্ডার। আমি ভাবতাম একটি প্রফেশনাল লুকিং ল্যান্ডিং পেজ তৈরি করা বিশাল ঝামেলার কাজ ও সময় সাপেক্ষ, কিন্তু বিজমেশন এটিকে মাত্র কয়েকটি ক্লিকে নামিয়ে এনেছে, এখন আমার বিজনেসের জন্য যত খুশী ল্যান্ডিং পেজ বানাতে পারি, নিমিষেই! 
-        বিজমেশনকে ধন্যবাদ, এর সাহায্যে আমি এখন আমার ব্যবসা আরও ভালোভাবে পরিচালনা করতে পারছি। আপনি যদি একজন অনলাইন ব্যবসায়ী হন, তাহলে বিজমেশন আপনার জন্য মাষ্ট। কারণ বিজমেশন স্রেফ একটা বিজনেস অটোমেশন টুল নয়, এ যেন এক ম্যাজিক!</p>   
+      <div>
+        <img class="w-[60px] h-[60px] rounded-full"src="./img/Md-Maruf.jpeg"alt="">
       </div>
-     </div>
-     <!-- Add more testimonials here if needed -->
+      <div class="text-yellow-400 text-2xl">★★★★☆</div>
+      <p class="gloryrigular text-[22px]">Md. Maruf Mostafa</p>
+      <p class="inter text-lg leading-[30px] text-[#2C2C2C80] italic h-[160px] overflow-x-hidden">"এড রান করার সময় ল্যান্ডিং পেইজের প্রয়োজনীয়তা সবসময় অনুভব করতাম, কিন্তু ভালো মানের পেজ বানাতে হাজার টাকা ও অনেক সময় লাগত। বিজমেশন দিয়ে এখন সম্পূর্ণ বিনামূল্যে মাত্র এক ক্লিকে অসংখ্য ল্যান্ডিং পেইজ বানাতে পারছি। </p>   
+      </div>
+   </div>
     </div>
   
     <!-- Custom Navigation Buttons -->
@@ -617,31 +618,14 @@
       </button>
     </div>
    </div>
- </div>
+  </div>
  </div>
 
- <div class="bgimage_6 ">
+ <div class="bgimage_6">
   <div class="container py-5 md:py-10 lg:py-16">
-   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Frequently Asked Questions</h1>
-   <div class="text-center">
-    <img class=" w-[50%] md:w-[30%] lg:w-auto inline-block md:ml-100 lg:ml-120 mt-[-10px]"src="./img/line_6.png"alt="">
-   </div> 
-   <div id="accordion-container "class="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-6 lg:gap-12 p-2 py-5 md:py-10">
-    <div class="grid gap-3 md:gap-6">
-      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-        <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section1')"> 
-         <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">What is SaaS?</p>
-         <img src="./img/heroicons_plus.png"alt="">
-        </button>
-        <div id="section1"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Bizmation is an all-in-one automated software solution specially designed for online businesses. It offers tools like a smart inventory system, one-click landing page creation, and Failed & fake order tracking to streamline operations, save time, and boost your business efficiency as well as profit.</div>
-      </div>
-      <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
-       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section2')"> 
-        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How does the fake order tracking system work?</p>
-        <img src="./img/heroicons_plus.png"alt="">
-       </button>
-       <div id="section2"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-      </div>
+   <h1 class="archivo-black-regular text-2xl md:text-4xl lg:text-5xl leading-[120%] text-center text-blackr">Frequently Asked <span class="relative">Questions <img class="w-full absolute left-0 bottom-[-20px] md:bottom-[-32px]" src="./img/line_6.png"alt=""></span></h1>
+   <div id="accordion-container "class="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-6 lg:gap-12 p-2 py-5 md:py-10 md:pt-16 pt-10">
+    <div class="flex flex-col gap-3 md:gap-6">
       <div class="bg-white rounded-[30px] rounded-bl-none hover:bg-gray-50 transition-all duration-300">
        <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section3')"> 
         <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Is Bizmation suitable for small businesses?</p>
@@ -664,14 +648,7 @@
        <div id="section5"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Our pricing is competitive and tailored to suit businesses of different scales. It is based on your delivery volume. Meaning, no order, no payment! Contact us for detailed pricing plans and offers.</div>
       </div>       
     </div>
-    <div class="grid gap-3 md:gap-6">
-      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition duration-300">
-       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section6')"> 
-        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Who can use Bizmation?</p>
-        <img src="./img/heroicons_plus.png"alt="">
-       </button>
-       <div id="section6"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-      </div> 
+    <div class="flex flex-col gap-3 md:gap-6">
       <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
        <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section7')"> 
         <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">Can I create a landing page without technical skills?</p>
@@ -692,20 +669,13 @@
         <img src="./img/heroicons_plus.png"alt="">
        </button>
        <div id="section9"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae quo harum qui aspernatur asperiores debitis unde eligendi veritatis autem. Fugiat!</div>
-      </div>
-      <div class="bg-white rounded-[30px] rounded-br-none hover:bg-gray-50 transition-all duration-300">
-       <button class="w-full flex justify-between items-center p-4 md:py-6 "onclick="toggleAccordion('section10')"> 
-        <p class="inter text-[#3B3B3B] text-[16px] md:text-[18px] leading-[18px]">How do I get started with Bizmation?</p>
-        <img src="./img/heroicons_plus.png"alt="">
-       </button>
-       <div id="section10"class="inter p-2 md:p-4 text-[14px] md:text-[16px] text-gray-700 hidden">We offer dedicated customer support through phone, email, and chat to assist you with any issues or questions. Our team is committed to ensuring a smooth experience for you.</div>
-      </div>     
+      </div>    
     </div>
    </div> 
    <h2 class="text-xl md:text-2xl leading-[150%] text-center text-[#3B3B3BCC] py-5 lg:py-10">Don’t find the actual topic you looking for?</h2>
    <div class="py-5 inter text-center gap-12">
     
-    <a class="inline-block px-5 md:px-18 py-5 bg bg-white hover:bg-[#0FB7BE] text-[#464646] hover:text-white text-xl md:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
+    <a class="inline-block px-5 md:px-18 py-5 bg bg-[#0FB7BE] text-white text-xl md:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-3xl"href="">
      Send Your Query
      <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="inline-block ">
       <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
@@ -719,13 +689,10 @@
   <div class="container py-5 md:py-10 lg:py-16">
    <div class="md:flex gap-6 lg:gap-20 py-5 md:px-4 ">
     <div class="flex-1">
-     <h1 class="archivo-black-regular text-xl md:text-3xl lg:text-5xl leading-[120%] text-blackr">Start Your Journey to Success Today</h1>
-     <div>
-      <img class="w-[50%] md:w-[40%] lg:w-auto ml-16 lg:-mt-3"src="./img/line_7.png"alt="">
-     </div>
-     <h4 class="gloryrigular text-lg lg:text-2xl leading-[150%] text-[#3B3B3B] lg:py-4">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
-     <div class="py-5 inter md:pt-16 lg:pt-20">
-      <a class="inline-block px-2 lg:px-8 py-2 lg:py-4 bg bg-white hover:bg-[#ED6911] text-[#464646] hover:text-white text-lg lg:text-[27.34px] transition-all duration-300 drop_shadow_2 rounded-2xl lg:rounded-3xl"href="">
+     <h1 class="archivo-black-regular text-xl md:text-3xl lg:text-5xl leading-[120%] text-blackr">Start Your Journey to <span class="relative">Success <img class="w-full absolute left-0 bottom-[-10px] md:bottom-[-20px]" src="./img/line_7.png"alt=""></span> Today</h1>
+     <h4 class="gloryrigular text-lg lg:text-2xl leading-[150%] text-[#3B3B3B] lg:py-4 pt-5 lg:pt-10">Discover how BizMation’s features simplify business operations and drive growth. Watch our quick demo to explore its powerful capabilities in real-time</h4>
+     <div class="py-5 inter md:pt-16 lg:pt-18">
+      <a class="inline-block px-2 lg:px-3 py-2 lg:py-3 xl:px-8 xl:py-4 bg-[#ED6911] text-white text-lg lg:text-[27.34px] hover:scale-105 transition-all duration-300 drop_shadow_2 rounded-2xl lg:rounded-3xl"href="">
        Let’s Start 7 Days Free Trial
        <svg width="80"height="40"viewBox="0 0 90 47"fill="none"stroke="currentColor"xmlns="http://www.w3.org/2000/svg"class="size-12 lg:size-auto inline-block ">
         <path d="M20.0723 24.3872L71.0279 22.9971M71.0279 22.9971C71.0279 22.9971 62.259 17.2579 60.4771 12.4971M71.0279 22.9971C71.0279 22.9971 63.2759 28.3897 60.4771 33.4971"stroke-width="3"stroke-linecap="square"/>
@@ -748,11 +715,7 @@
 
  </div>
 
-
-
-
-
- <footer class="">
+ <footer id="contact_us" class="">
   <div class="bgimage_8">
    <div class="container  mx-auto p-5 lg:pt-20">
     <div
@@ -849,12 +812,10 @@
   </div>
  </footer>
 
-
-
  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
- <script>
+<script>
   $(document).ready(function(){
    const owl = $(".owl-carousel").owlCarousel({
     loop: true,
@@ -879,15 +840,16 @@
     owl.trigger('prev.owl.carousel');
    });
   });
- </script>
+</script>
 
- <script>
+<script>
    document.getElementById('menu-toggle').addEventListener('click', function() {
      var mobileMenu = document.getElementById('mobile-menu');
      mobileMenu.classList.toggle('hidden');
    });
- </script>
-  <script>
+</script>
+
+<script>
   function toggleAccordion(id) {
       const sections = document.getElementById('accordion-container ').querySelectorAll("div[id]");
       sections.forEach(section => {
@@ -897,6 +859,19 @@
       });
       document.getElementById(id).classList.toggle("hidden");
     }
- </script>
+</script>
+
+<script>
+  document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', function(event) {
+          event.preventDefault(); 
+          const targetId = this.getAttribute('href'); 
+          const targetSection = document.querySelector(targetId); 
+          if (targetSection) {
+              targetSection.scrollIntoView({ behavior: 'smooth' }); 
+          }
+      });
+  });
+</script>
 </body>
 </html>
